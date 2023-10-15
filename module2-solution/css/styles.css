@@ -6,7 +6,7 @@
 
 
 body {
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 #header {
@@ -76,7 +76,7 @@ section> p {
     }
     .col-md-12 {
         float: left;
-        width: 100%;
+        width: calc(100% - 26px);
     }
 }
 
@@ -85,6 +85,6 @@ section> p {
 @media (max-width:767px) {
     .col-sm-12 {
         float: left;
-        width: 100%;
+        width: calc(100% - 26px);
     }
 }
