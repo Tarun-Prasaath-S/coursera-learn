@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: #fff;
+    background-color: blueviolet;
+}
+
+ul.navbar-nav > li.nav-item:hover {
+    background-color: rgba(86, 28, 141, 0.897);
+    border-radius: 7px;
+}
